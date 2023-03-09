@@ -21,12 +21,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--Merriweather);
-    color: var(--#87BBA2);
+    color: var(#87BBA2);
 }
 
 header {
     padding: 20px;
-    background-color: var(--#C5E7E2);
+    background-color: var(#C5E7E2);
 }
 
 p {
@@ -34,23 +34,23 @@ p {
 }
 
 nav {
-    background-color: var(--#55828B);
+    background-color: var(#55828B);
     font-size: 1.2rem;
     display: flex;
 }
   
 nav a {
     display: block;
-    color: var(--#111);
+    color: var(#111);
     text-decoration: none;
     padding: 1rem;
 }
   
 nav a:link, nav a:visited {
-    color: var(--#111);
+    color: var(#111);
 }
   
 nav a:hover {
-    color: var(--#111);
-    background-color: var(--#C5E7E2);
+    color: var(#111);
+    background-color: var(#C5E7E2);
 }
