@@ -14,65 +14,113 @@
     --nav-hover-background-color: #C5E7E2;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    color: #87BBA2;
+    color: var(--secondary-color);
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    color: #111;
+    padding: 25px;
+    font-size: 16px;
+}
+
+a.sociallinks {
+    text-decoration: none;
+}
+
+a {
+    color: #87BBA2;
+}
+
 body {
     max-width: 960px;
     padding: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Merriweather';
-    color: #87BBA2;
-}
-
-header {
-    padding: 20px;
-    background-color: #C5E7E2;
-}
-
-p {
-    padding: 25px;
-}
-
-nav {
-    background-color: #55828B;
-    font-size: 1.2rem;
-    display: flex;
-}
-  
-nav a {
-    display: block;
-    color: #111;
-    text-decoration: none;
-    padding: 1rem;
-}
-
 .hero {
     position: relative;
+    width: 100%;
+    height: 600px;
+    background: url('images/wwr4.jpg') no-repeat center center/cover;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 900px;
+    padding: 10px;
+    background-color: #C5E7E2;
 }
 
 .hero image {
     position: relative;
 }
 
-h1 {
-    position: absolute;
-}
-
 article {
     position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    padding: 12px;
+    background-color: #C5E7E2;
+    opacity: 0.80;
 }
 
-.articleimage {
+article image {
     float: right;
+    max-width: 50%;
+    height: auto;
 }
 
-nav a:link, nav a:visited {
-    text-decoration: none;
-    color: #111;
+.history {
+    background-color: #C5E7E2;
+    padding: 50px 0;
 }
   
-nav a:hover {
-    text-decoration: none;
-    color: #111;
+.history h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+  
+.history p {
+    color: #87BBA2;
+}
+  
+.adventure {
+    padding: 50px 0;
+}
+  
+.adventure h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+  
+.adventure img {
+    width: 20%;
+    margin: 10px;
+}
+
+footer {
     background-color: #C5E7E2;
+    padding: 50px 0;
+    color: #87BBA2;
+}
+  
+footer p {
+    text-align: center;
+}
+  
+footer img {
+    width: 30px;
+    margin: 0 10px;
 }
