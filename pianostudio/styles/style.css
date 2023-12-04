@@ -1,19 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poiret+One&display=swapLinks to an external site.');
 
-/*Header*/
 
 #contentblock {
     max-width: 1200px;
     margin: 0 auto;
 }
 
+body {
+    background: #B5C3BE;
+}
+
+/*Header*/
+
 header {
-    background-color: #B5C3BE;
+    
+    background-color: #5E6E5F;
     opacity: 1;
     display: grid;
     grid-template-columns: 150px auto;
     text-align: center;
-    max-height: 100px;
+    max-height: 90px;
     
 }
 
@@ -22,7 +28,7 @@ header {
 }
 
 #logo_link{
-    padding-top: 5px;
+    padding: auto auto;
     justify-self: center;
     align-self: center;
 }
@@ -39,7 +45,7 @@ nav {
 }
 
 nav a:hover{
-    background-color: #5E6E5F;
+    background-color: #B5C3BE;
     color: white;
 }
 
@@ -77,23 +83,76 @@ nav a:hover{
 
 /*Resume and Introduction*/
 
-.resume {
-    background-color: #B5C3BE;
-}
-
-.resume img {
-    margin: 0 auto;
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .lauraimg {
-    max-width: 600px;
+    grid-column: 1/2;
+    align-self: start;
 }
 
-.resume section {
-    background-color: white; 
+.msg {
+    grid-column: 2/3;
     max-width: 600px;
+    max-height: 225px;
+    align-self: start;
+    display: block;
 }
 
-.resume h3 {
-    color: #C19AB3;
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.flyerimg {
+    grid-column: 1/2;
+}
+
+.page1card {
+    grid-column: 2/3;
+    display: block;
+}
+
+.gameimg {
+    grid-column: 3/4;
+}
+
+.page2card {
+    grid-column: 4/5;
+    display: block;
+}
+
+
+/*Footer*/
+
+footer, .social, img{
+    padding-top: 15px;
+}
+
+footer {
+    background-color: #5E6E5F;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover{
+    color: white;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
 }
