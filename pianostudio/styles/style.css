@@ -189,7 +189,7 @@ nav a:hover{
     grid-row: 7/10;
     grid-column: 3/6;
     background-color: #5E6E5F;
-    max-height: fit-content;
+    max-height: 150px;
     text-align: center;
 }
 
@@ -225,7 +225,7 @@ nav a:hover{
     grid-row: 7/10;
     grid-column: 9/12;
     background-color: #5E6E5F;
-    max-height: 200px;
+    max-height: 150px;
     text-align: center;
 }
 
