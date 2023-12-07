@@ -181,9 +181,60 @@ nav a:hover{
     font-family: var(--paragraph-font);
 }
 
-/*Home page Main Content*/
+/*Events page Main Content*/
 
 .page2-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    max-height: 1000px;
+}
+
+.flyer1 {
+    grid-column: 2/6;
+    grid-row: 2/8;
+}
+
+.fall {
+    grid-column: 8/15;
+    grid-row: 5/9;
+    background-color: #5E6E5F;
+    max-height: 175px;
+    text-align: center;
+}
+
+.fall h1 {
+    font-family: var(--heading-font);
+}
+
+.fall h2 {
+    font-family: var(--paragraph-font);
+}
+
+.flyer2 {
+    grid-column: 2/6;
+    grid-row: 11/16;
+}
+
+.winter {
+    grid-column: 8/15;
+    grid-row: 13/16;
+    background-color: #5E6E5F;
+    max-height: 150px;
+    text-align: center;
+}
+
+.winter h1 {
+    font-family: var(--heading-font);
+}
+
+.winter h2 {
+    font-family: var(--paragraph-font);
+}
+
+/*Resources page Main Content*/
+
+.page3-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
