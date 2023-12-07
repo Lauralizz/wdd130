@@ -116,10 +116,21 @@ nav a:hover{
 
 .button-box1 {
     background-color: #C19AB3;
-    max-width: fit-content;
     text-align: center;
     grid-column: 3/4;
     grid-row: 6/7;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.button-box1 :hover {
+    color: #5E6E5F;
+}
+
+.button-box2 :hover {
+    color: #5E6E5F;
 }
 
 .page1 {
@@ -149,10 +160,13 @@ nav a:hover{
 
 .button-box2 {
     background-color: #C19AB3;
-    max-width: fit-content;
     text-align: center;
     grid-column: 8/10;
     grid-row: 6/7;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .page2 {
@@ -284,11 +298,17 @@ nav a:hover{
 
 .button-box3 {
     background-color: #C19AB3;
-    max-width: fit-content;
     text-align: center;
     grid-column: 11/12;
     grid-row: 7/8;
-    max-height: 40px;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.button-box3 :hover {
+    color: #5E6E5F;
 }
 
 .game1-link {
@@ -297,10 +317,17 @@ nav a:hover{
 
 .button-box4 {
     background-color: #C19AB3;
-    max-width: fit-content;
     text-align: center;
-    grid-column: 10/14;
+    grid-column: 10/13;
     grid-row: 15/16;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.button-box4 :hover {
+    color: #5E6E5F;
 }
 
 .game2-link {
