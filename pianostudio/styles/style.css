@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poiret+One&display=swapLinks to an external site.');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poiret+One&display=swap');
 
 :root {
 --heading-font: "Dancing Script", cursive;
---paragraph-font: "Poiret One", sans-serif;
+--paragraph-font: "Poiret One", sans-serisf;
 }
 
 #contentblock {
@@ -32,7 +32,6 @@ header {
 }
 
 #logo_link{
-    padding: auto auto;
     justify-self: center;
     align-self: center;
 }
@@ -73,7 +72,7 @@ nav a:hover{
     margin-top: 100px;
 }
 
-#hero-msg h1 {
+#hero-msg {
     color: white;
     text-align: center;
     font-size: 50px;
@@ -147,6 +146,7 @@ nav a:hover{
     background-color: #5E6E5F;
     text-align: center;
     grid-row-start: 2;
+    padding: 10px 20px;
 }
 
 .msg h2 {
@@ -166,6 +166,7 @@ nav a:hover{
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .button-box1 :hover {
@@ -178,6 +179,7 @@ nav a:hover{
 
 .page1 {
     color: black;
+    font-size: larger;
 }
 
 .flyerimg {
@@ -191,6 +193,7 @@ nav a:hover{
     background-color: #5E6E5F;
     max-height: 150px;
     text-align: center;
+    padding: 10px 10px;
 }
 
 .page1card h2 {
@@ -210,10 +213,12 @@ nav a:hover{
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .page2 {
     color: black;
+    font-size: larger;
 }
 
 .gameimg {
@@ -227,6 +232,7 @@ nav a:hover{
     background-color: #5E6E5F;
     max-height: 150px;
     text-align: center;
+    padding: 10px 10px;
 }
 
 .page2card h2 {
@@ -255,15 +261,17 @@ nav a:hover{
     grid-column: 8/15;
     grid-row: 5/9;
     background-color: #5E6E5F;
-    max-height: 175px;
     text-align: center;
-}
-
-.fall h1 {
-    font-family: var(--heading-font);
+    padding: 10px 10px 10px 10px;
+    max-height: 200px;
 }
 
 .fall h2 {
+    font-family: var(--heading-font);
+    font-size: xx-large;
+}
+
+.fall h3 {
     font-family: var(--paragraph-font);
 }
 
@@ -276,15 +284,16 @@ nav a:hover{
     grid-column: 8/15;
     grid-row: 13/16;
     background-color: #5E6E5F;
-    max-height: 150px;
+    padding: 20px 20px 20px 20px;
     text-align: center;
 }
 
-.winter h1 {
+.winter h2 {
     font-family: var(--heading-font);
+    font-size: xx-large;
 }
 
-.winter h2 {
+.winter h3 {
     font-family: var(--paragraph-font);
 }
 
@@ -306,15 +315,16 @@ nav a:hover{
     grid-column: 8/15;
     grid-row: 2/7;
     background-color: #5E6E5F;
-    max-height: 350px;
+    padding: 15px 20px 20px 20px;
     text-align: center;
 }
 
-.tenuto h1 {
+.tenuto h2 {
     font-family: var(--heading-font);
+    font-size: xx-large;
 }
 
-.tenuto h2 {
+.tenuto h3 {
     font-family: var(--paragraph-font);
 }
 
@@ -327,15 +337,16 @@ nav a:hover{
     grid-column: 8/15;
     grid-row: 12/15;
     background-color: #5E6E5F;
-    max-height: 300px;
     text-align: center;
-}
-
-.theory-lessons h1 {
-    font-family: var(--heading-font);
+    padding: 10px 20px 30px 20px;
 }
 
 .theory-lessons h2 {
+    font-family: var(--heading-font);
+    font-size: xx-large;
+}
+
+.theory-lessons h3 {
     font-family: var(--paragraph-font);
 }
 
@@ -356,6 +367,7 @@ nav a:hover{
 
 .game1-link {
     color: black;
+    font-size: larger;
 }
 
 .button-box4 {
@@ -375,6 +387,7 @@ nav a:hover{
 
 .game2-link {
     color: black;
+    font-size: larger;
 }
 
 
@@ -408,4 +421,8 @@ footer p{
 
 footer p a:hover{
     text-decoration: underline;
+}
+
+.social a {
+    text-decoration: none;
 }
