@@ -1,0 +1,103 @@
+/******************************************************************************
+START grid layout extra credit
+******************************************************************************/
+* {
+    box-sizing: border-box;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.grid1 h1 {
+    align-items: center
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+    background-color: aqua;
+    grid-column: 2/6.5;
+}
+
+.grid2 h2 {
+    align-items: center
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+    background-color: blue;
+    grid-column: 7/12;
+}
+
+.grid3 h3 {
+    align-items: center
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+    background-color: blueviolet;
+    grid-column: 4/12;
+}
+
+.grid4 h2 {
+    align-items: center
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+    background-color: brown;
+    grid-column: 2/9;
+}
+
+
+section h2 {
+    align-items: center
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+    grid-column: 2/7;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+fieldset > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+    grid-gap: 0 1em;
+}
+
+label {
+    align-items: right;
+}
+
+input {
+    align-items: left;
+    width: 100%;
+}
+
+button {
+
+}
+
+
+section > div {
+
+}
